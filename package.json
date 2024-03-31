@@ -1,0 +1,38 @@
+{
+  "name": "content-moderation",
+  "version": "1.0.0",
+  "description": "This is a profanity filter API built in NodeJs to check the toxicity of the content",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hariharan-baskaran/content-moderation.git"
+  },
+  "keywords": [
+    "Content",
+    "Moderation",
+    "Profanity",
+    "filter"
+  ],
+  "author": "Hariharan Baskaran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hariharan-baskaran/content-moderation/issues"
+  },
+  "homepage": "https://github.com/hariharan-baskaran/content-moderation#readme",
+  "dependencies": {
+    "@aws-sdk/client-comprehend": "^3.540.0",
+    "@google-cloud/language": "^6.2.0",
+    "@google-cloud/vision": "^4.1.0",
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "openai": "^4.30.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
